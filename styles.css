@@ -79,7 +79,7 @@ header {
   border-radius: 5px;
   font-size: 16px;
   z-index: 10; /* Ensure it appears above other elements */
-  background: rgba(255, 255, 255, 0.3); /* Optional: add a semi-transparent background for readability */
+  background: rgba(255, 255, 255, 0.7); /* Optional: add a semi-transparent background for readability */
 
 }
 
