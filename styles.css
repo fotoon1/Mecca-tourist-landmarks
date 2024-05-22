@@ -69,7 +69,6 @@ header {
   padding: 20px;
 }
 
-
 .rights {
   position: fixed; /* Change to fixed to keep it at the bottom */
   bottom: 20px;
@@ -79,9 +78,21 @@ header {
   border-radius: 5px;
   font-size: 16px;
   z-index: 10; /* Ensure it appears above other elements */
-  /*background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a semi-transparent background for better readability */*/
 }
 
+/* Add new CSS below */
+
+@media screen and (max-width: 480px) {
+  .rights {
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .slide-1 h1 {
+    font-size: 5vw;
+  }
+}
 
 /* Swiper section */
 .swiper-container {
@@ -111,7 +122,6 @@ header {
   background-size: 100% 100%;
   position: relative; /* Ensure the slide itself is positioned relatively */
 }
-
 
 .slide-1 h1 {
   position: absolute;
