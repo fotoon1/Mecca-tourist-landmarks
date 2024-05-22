@@ -69,16 +69,19 @@ header {
   padding: 20px;
 }
 
+
 .rights {
-  position: absolute;
-  bottom: 10px;
+  position: fixed; /* Change to fixed to keep it at the bottom */
+  bottom: 20px;
   right: 10px;
   color: black;
   padding: 10px;
   border-radius: 5px;
   font-size: 16px;
   z-index: 10; /* Ensure it appears above other elements */
+  /*background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a semi-transparent background for better readability */*/
 }
+
 
 /* Swiper section */
 .swiper-container {
@@ -109,13 +112,21 @@ header {
   position: relative; /* Ensure the slide itself is positioned relatively */
 }
 
+
 .slide-1 h1 {
   position: absolute;
   top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #574419; /* Adjust the color of the title */
-  font-size: 40px; /* Adjust the font size of the title */
+  font-size: 6vw; /* Adjust the font size relative to the viewport width */
+  white-space: nowrap; /* Prevent text from breaking into multiple lines */
+}
+
+@media (max-width: 767px) {
+  .slide-1 h1 {
+    font-size: 8vw; /* Adjust the font size for smaller screens */
+  }
 }
 
 .slide-2 {
