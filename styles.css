@@ -71,7 +71,7 @@ header {
 
 .rights {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   right: 10px;
   color: black;
   padding: 10px;
@@ -115,7 +115,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #574419; /* Adjust the color of the title */
-  font-size: 43px; /* Adjust the font size of the title */
+  font-size: 40px; /* Adjust the font size of the title */
 }
 
 .slide-2 {
