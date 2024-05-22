@@ -69,10 +69,14 @@ header {
   padding: 20px;
 }
 
+.content-container {
+  position: relative; /* Set to relative to contain absolute positioned elements */
+}
+
 .rights {
-  position: fixed; 
-  bottom: 20px !important;
-  right: 10px !important;
+  position: absolute; 
+  bottom: 20px;
+  right: 10px;
   color: black;
   padding: 10px;
   border-radius: 5px;
