@@ -71,8 +71,8 @@ header {
 
 .rights {
   position: fixed; 
-  bottom: 20px;
-  right: 10px;
+  bottom: 20px !important;
+  right: 10px !important;
   color: black;
   padding: 10px;
   border-radius: 5px;
