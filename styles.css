@@ -43,8 +43,8 @@ body.page {
   background-position: center;
   height: 100vh;
 }
-body.page1.no-background {
-  background: none;
+body.east-makkah {
+  background-color: #FCE5D8;
 }
 
 header {
