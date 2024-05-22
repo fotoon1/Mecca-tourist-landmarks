@@ -70,7 +70,7 @@ header {
 }
 
 .rights {
-  position: fixed; /* Change to fixed to keep it at the bottom */
+  position: absolute; 
   bottom: 20px;
   right: 10px;
   color: black;
