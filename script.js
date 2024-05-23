@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Delay before the first automatic slide
   setTimeout(() => {
     swiper.slideNext(); // Move to the next slide
-  }, 3000); // 3 seconds delay, adjust as needed
+  }, 2000); // 2 seconds delay, adjust as needed
 
   // Delay before returning to the first slide
   setTimeout(() => {
