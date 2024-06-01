@@ -37,18 +37,18 @@ body {
 }
 
 body.page {
-  background-image: url('خلفية الكعبة.jpg');
+  background-image: url('خلفية.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
 }
 body.east-makkah {
-  background-color: #FCE5D8;
+  background-color: #FBE5D7;
 }
 
 header {
-  background-color: #FFD8AD;
+  background-color: #FBE5D7;
   color: #fff;
   padding: 20px;
   display: flex;
